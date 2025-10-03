@@ -185,6 +185,37 @@ main {
     margin-bottom: 1rem;
 }
 
+/* Уменьшение фото ТОЛЬКО на странице team.html */
+.members-grid .member-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--secondary-color);
+    transition: var(--transition);
+}
+
+/* Эффект при наведении */
+.members-grid .member-card:hover .member-photo {
+    transform: scale(1.05);
+    border-color: var(--accent-color);
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .members-grid .member-photo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .members-grid .member-photo {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 .team-card ul {
     list-style-position: inside;
     margin-left: 1rem;
