@@ -95,21 +95,21 @@ function showRandomMember() {
             link: 'member1.html'
         },
         {
-            name: 'Анна Петрова',
+            name: 'Виктор Смыков',
             role: 'Frontend разработчик',
             bio: 'Создает интуитивные и отзывчивые пользовательские интерфейсы. Эксперт в HTML, CSS и JavaScript.',
             skills: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
             link: 'member2.html'
         },
         {
-            name: 'Петр Сидоров',
+            name: 'Иван Павлов',
             role: 'Backend разработчик',
             bio: 'Специалист по серверной разработке и архитектуре баз данных. Работает с Java и C++.',
             skills: ['Java', 'C++', 'SQL', 'Microservices'],
             link: 'member3.html'
         },
         {
-            name: 'Мария Иванова',
+            name: 'Дмитрий Яновский',
             role: 'UI/UX дизайнер',
             bio: 'Создает эстетичные и функциональные дизайны. Работает с no-code инструментами и прототипированием.',
             skills: ['UI Design', 'UX Research', 'Figma', 'Prototyping'],
