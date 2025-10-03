@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт нашей команды разработчиков">
+    <title>Наша команда | Главная</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">Команда DevStars</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="team.html">Команда</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Добро пожаловать в нашу команду!</h1>
+            <p>Мы - группа passionate разработчиков, создающих инновационные решения</p>
+            <button class="cta-button" id="randomMemberBtn">Познакомиться с командой</button>
+        </div>
+    </section>
+
+    <section class="about-team">
+        <h2>О нашей команде</h2>
+        <div class="team-grid">
+            <article class="team-card">
+                <h3>Наша миссия</h3>
+                <p>Создавать качественные digital-продукты, которые решают реальные проблемы пользователей.</p>
+            </article>
+            <article class="team-card">
+                <h3>Наши ценности</h3>
+                <ul>
+                    <li>Качество кода</li>
+                    <li>Командная работа</li>
+                    <li>Постоянное обучение</li>
+                    <li>Ответственность</li>
+                </ul>
+            </article>
+            <article class="team-card">
+                <h3>Наши технологии</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Python, Java, C++</li>
+                    <li>Базы данных SQL/NoSQL</li>
+                    <li>Веб-разработка</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Команда DevStars. Все права защищены.</p>
+        <p><a href="contact.html">Связаться с нами</a></p>
+    </div>
+</footer>
+
+<div id="memberModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
